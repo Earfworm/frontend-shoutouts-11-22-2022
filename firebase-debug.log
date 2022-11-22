@@ -1,0 +1,47 @@
+[debug] [2022-11-22T19:58:56.292Z] ----------------------------------------------------------------------
+[debug] [2022-11-22T19:58:56.293Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\djear\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting:github
+[debug] [2022-11-22T19:58:56.294Z] CLI Version:   11.16.1
+[debug] [2022-11-22T19:58:56.294Z] Platform:      win32
+[debug] [2022-11-22T19:58:56.294Z] Node Version:  v16.18.0
+[debug] [2022-11-22T19:58:56.295Z] Time:          Tue Nov 22 2022 14:58:56 GMT-0500 (Eastern Standard Time)
+[debug] [2022-11-22T19:58:56.295Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-22T19:58:56.357Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-22T19:58:56.357Z] > authorizing via signed-in user (r.deshawn@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\djear\Desktop\GrandCircus\unit-9-db\03-shoutouts\frontend
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-11-22T19:59:15.562Z] Using project from CLI flag: shoutouts-5a7d1
+[debug] [2022-11-22T19:59:15.565Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/shoutouts-5a7d1 [none]
+[debug] [2022-11-22T19:59:15.927Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/shoutouts-5a7d1 200
+[debug] [2022-11-22T19:59:15.927Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/shoutouts-5a7d1 {"projectId":"shoutouts-5a7d1","projectNumber":"755867114999","displayName":"shoutouts","name":"projects/shoutouts-5a7d1","resources":{"hostingSite":"shoutouts-5a7d1"},"state":"ACTIVE","etag":"1_b9529ab7-5f1a-4071-bb5f-43162ecc0161"}
+[info] i  Using project shoutouts-5a7d1 (shoutouts) 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\Users\djear\Desktop\GrandCircus\unit-9-db\03-shoutouts\frontend is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=64281878&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
